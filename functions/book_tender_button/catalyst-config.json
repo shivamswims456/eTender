@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "book_tender_button",
+		"stack": "node16",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

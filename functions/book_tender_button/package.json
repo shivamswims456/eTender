@@ -1,0 +1,9 @@
+{
+	"name": "book_tender_button",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "apps@it-taas.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

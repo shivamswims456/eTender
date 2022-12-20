@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "2040000000003042",
+      "name": "eTender",
+      "domain": {
+        "id": "50011690221",
+        "name": "etender-60018626365.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60018626365",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

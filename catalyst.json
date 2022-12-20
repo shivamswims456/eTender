@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "book_tender_button"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

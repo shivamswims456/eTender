@@ -1,0 +1,31 @@
+[debug] [2022-12-20T06:40:59.138Z] : 
+[debug] [2022-12-20T06:40:59.139Z] : ----------------------------------------------------------------------
+[debug] [2022-12-20T06:40:59.140Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Developer\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-12-20T06:40:59.140Z] : CLI Version:  1.13.3
+[debug] [2022-12-20T06:40:59.141Z] : Platform:     win32
+[debug] [2022-12-20T06:40:59.141Z] : Node Version: v16.13.2
+[debug] [2022-12-20T06:40:59.142Z] : Time:         Tue Dec 20 2022 12:10:59 GMT+0530 (India Standard Time)
+[debug] [2022-12-20T06:40:59.142Z] : ----------------------------------------------------------------------
+[debug] [2022-12-20T06:40:59.142Z] : 
+[debug] [2022-12-20T06:40:59.915Z] : > authorizing via signed-in user option
+[debug] [2022-12-20T06:40:59.916Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-20T06:40:59.928Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2040000000003042 
+
+[debug] [2022-12-20T06:41:00.097Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Dec 2022 06:40:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=6bfc0150-30c1-4320-a84a-b0d0c69f227d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6bfc0150-30c1-4320-a84a-b0d0c69f227d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-20T06:41:00.108Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2040000000003042/environment 
+
+[debug] [2022-12-20T06:41:00.223Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Dec 2022 06:40:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=dd23edf7-a757-4dcb-b7f8-4256157e9265;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dd23edf7-a757-4dcb-b7f8-4256157e9265;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-20T06:41:00.414Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2040000000003042/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-12-20T06:41:00.522Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Dec 2022 06:41:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=8d8b0cf0-2df9-476b-b9ab-a1e714cbaa7b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8d8b0cf0-2df9-476b-b9ab-a1e714cbaa7b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-20T06:41:00.526Z] : unknown eol undefined hence skipping check
+[info] [2022-12-20T06:41:00.581Z] : i server[book_tender_button]: URL : http://localhost:3000/server/book_tender_button/
+[info] [2022-12-20T06:41:00.581Z] : 
+[info] [2022-12-20T06:41:00.727Z] : i client[eTender]: URL : http://localhost:3000/app/
